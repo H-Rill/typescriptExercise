@@ -1,0 +1,63 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Space Mono", monospace;
+    position: relative;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+
+  a{
+    text-decoration: none !important;
+  }
+
+  button>a{
+  color: white ;
+}
+
+  .nav {
+    margin-top: 2em;
+    gap: 2em;
+  }
+
+  .nav > a {
+    font-size: 1em;
+  }
+
+  .enrollment-page {
+    margin-top: 2em;
+  }
+  .error {
+    color: red;
+  }
+
+  tr{
+    text-align: center;
+  }
+
+  /* .custom-table {
+    border: 2px solid black;
+    width: 70%;
+    border-collapse: collapse;
+  }
+
+  .custom-table td,
+  .custom-table th {
+    padding: 2px;
+    border: 1px solid black;
+  } */
